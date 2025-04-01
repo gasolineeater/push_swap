@@ -19,5 +19,6 @@ typedef struct s_stack
 }				t_stack;
 
 t_stack	*init_stack(void);
+void	free_stack(t_stack *stack);
 
 # endif
