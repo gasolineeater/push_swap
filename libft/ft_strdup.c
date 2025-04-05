@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ezekaj <ezekaj@student.42heilbronn.de>     +#+  +:+       +#+        */
+/*   By: gasolineeater <gasolineeater@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 20:11:09 by ezekaj            #+#    #+#             */
-/*   Updated: 2024/11/11 18:12:18 by ezekaj           ###   ########.fr       */
+/*   Updated: 2025/04/05 10:08:18 by gasolineeat      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,6 @@ char	*ft_strdup(const char *s1)
 		return (NULL);
 	if (s1 == NULL)
 		return (NULL);
-	s2 = ft_memcpy(s2, s1, ft_strlen(s1));
+	ft_memcpy(s2, s1, ft_strlen(s1));
 	return (s2);
 }
