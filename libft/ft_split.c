@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ezekaj <ezekaj@student.42heilbronn.de>     +#+  +:+       +#+        */
+/*   By: gasolineeater <gasolineeater@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 15:56:23 by ezekaj            #+#    #+#             */
-/*   Updated: 2024/11/15 20:15:18 by ezekaj           ###   ########.fr       */
+/*   Updated: 2025/04/05 10:09:46 by gasolineeat      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ static size_t	count_words(const char *s, char delimiter)
 
 	words = 0;
 	if (!s)
-		return (words);
+		return (0);
 	while (*s)
 	{
 		isword = false;
