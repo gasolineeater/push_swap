@@ -5,6 +5,7 @@
 # include <unistd.h>
 # include "../libft/libft.h"
 # include "../printf/ft_printf.h"
+# include "../inc/push_swap.h"
 
 typedef struct s_node
 {
